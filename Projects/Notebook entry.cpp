@@ -7,10 +7,10 @@ string Fname, Lname;
 int phoneNumber;
 
 int main() {
-    cout <<"dziala";
+    
     cout << "Name: "; cin >> Fname;
-    cout << "Last name"; cin >> Lname;
-    cout << "Phone Number"; cin >> phoneNumber;
+    cout << "Last Name: "; cin >> Lname;
+    cout << "Phone Number: "; cin >> phoneNumber;
 
     fstream file;
     file.open("BusinessCard.txt", ios::out | ios::app);
