@@ -1,0 +1,8 @@
+#include <iostream>
+#include <string>
+
+std::string how_much_i_love_you(int nb_petals) {
+    std::string array[] = {"not at all", "I love you", "a little", "a lot", "passionately", "madly"};
+    int index = nb_petals % 6;
+    return array[index];
+}
